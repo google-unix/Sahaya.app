@@ -1,1 +1,213 @@
+<!DOCTYPE html>
 
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Civic Clarity - Join the Movement</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800;900&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "on-tertiary-container": "#ffedf0",
+                "surface-bright": "#f9f9f9",
+                "tertiary-fixed": "#ffd9e2",
+                "background": "#f9f9f9",
+                "tertiary-fixed-dim": "#ffb1c7",
+                "primary-container": "#2e7d32",
+                "error": "#ba1a1a",
+                "on-secondary-container": "#003567",
+                "on-tertiary": "#ffffff",
+                "on-error-container": "#93000a",
+                "outline-variant": "#bfcaba",
+                "surface-container-low": "#f3f3f3",
+                "on-tertiary-fixed-variant": "#7f2448",
+                "inverse-primary": "#88d982",
+                "secondary-fixed-dim": "#a5c8ff",
+                "on-error": "#ffffff",
+                "secondary-container": "#54a0fe",
+                "on-background": "#1a1c1c",
+                "on-secondary-fixed-variant": "#004786",
+                "inverse-surface": "#2f3131",
+                "on-surface-variant": "#40493d",
+                "surface-dim": "#dadada",
+                "on-primary-container": "#cbffc2",
+                "surface-container-high": "#e8e8e8",
+                "on-secondary-fixed": "#001c3a",
+                "surface-container-highest": "#e2e2e2",
+                "tertiary-container": "#b14b6f",
+                "surface-variant": "#e2e2e2",
+                "on-surface": "#1a1c1c",
+                "on-primary-fixed": "#002204",
+                "on-primary": "#ffffff",
+                "primary-fixed": "#a3f69c",
+                "surface-container": "#eeeeee",
+                "surface-container-lowest": "#ffffff",
+                "tertiary": "#923357",
+                "on-tertiary-fixed": "#3f001c",
+                "on-primary-fixed-variant": "#005312",
+                "secondary-fixed": "#d4e3ff",
+                "secondary": "#005faf",
+                "error-container": "#ffdad6",
+                "on-secondary": "#ffffff",
+                "surface": "#f9f9f9",
+                "primary-fixed-dim": "#88d982",
+                "outline": "#707a6c",
+                "inverse-on-surface": "#f1f1f1",
+                "primary": "#0d631b",
+                "surface-tint": "#1b6d24"
+              },
+              fontFamily: {
+                "headline": ["Public Sans"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Public Sans', sans-serif; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- Top Navigation Suppression: Onboarding/Login logic -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md shadow-sm dark:shadow-none h-16 flex items-center justify-between px-6">
+<div class="text-xl font-bold text-green-700 dark:text-green-500 tracking-tighter">
+            Civic Clarity
+        </div>
+<!-- Language Toggle Pill -->
+<div class="flex items-center bg-surface-container-high rounded-full p-1 h-10">
+<button class="px-4 py-1.5 rounded-full text-sm font-medium bg-primary text-on-primary shadow-sm transition-all">
+                English
+            </button>
+<button class="px-4 py-1.5 rounded-full text-sm font-medium text-on-surface-variant hover:text-primary transition-all">
+                ಕನ್ನಡ
+            </button>
+</div>
+</header>
+<main class="flex-grow flex flex-col items-center justify-center px-6 pt-24 pb-12 w-full max-w-5xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
+<!-- Hero Illustration & Branding Section -->
+<div class="hidden lg:flex flex-col space-y-8 pr-12">
+<div class="space-y-4">
+<h1 class="text-5xl font-black text-primary-fixed-variant leading-tight tracking-tighter">
+                        Empowering Clean <br/>Communities.
+                    </h1>
+<p class="text-on-surface-variant text-lg max-w-md leading-relaxed">
+                        Join your neighbors in creating a smarter, cleaner city. Report issues, track waste collection, and earn rewards for civic participation.
+                    </p>
+</div>
+<div class="relative w-full aspect-square rounded-3xl overflow-hidden bg-surface-container-low flex items-center justify-center p-8">
+<!-- The Digital Caretaker Visual -->
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-secondary/10"></div>
+<img class="relative z-10 w-full h-full object-cover rounded-2xl shadow-xl" data-alt="Modern sustainable city with green spaces and clean streets illustration" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7I-5x4sTonsTva9WGjmZqHC6rW-bHN1YpzkbrA4rbYwp9JVVoU6EnRHn60q__iyMsDokiZseqNn-oxbo0R2xPE6XtgZjvmZBNc0FNBupUcF4q3ZfvtGR5ZeovUc2QVsJ3tAaf-w8Bf2-S32QDREGzxi3_1-BjqLoTa78BwJpd8PZDxCzLb3uuVmI4FhZujQYSgR6dLV4XAdSjMYeaH51HKXlWaBsVTm5ooqJlZI2VZYOLkZxZCYAZSura9BL-_RH4uBTmPRDBlaFL"/>
+</div>
+<div class="flex items-center space-x-6">
+<div class="flex -space-x-3">
+<img class="w-10 h-10 rounded-full border-2 border-white object-cover" data-alt="User profile avatar 1" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbRwWp-ca1LTI697t5LBVlfmNHgO4iGK-JcdpBjq41WW1qGjcxv4lUjFt4Kn6A4rWU_GL0bC2OnGVpgj3H8M9n5jm-Lbn7hQV_InngDiCjXkjOeys6PXEqh1ROa313BiESpN6w74a3AQQjjmOTZEyBV8jcb7wUxtqvMRTdxL8C2zSnLUdEoU0DAdggje-bUUffz2mEdfSXHa-p06-WhefNNlq1uCKvZRB7AaPYC5dfHPaCf_CIhm_OFofBq6quVLOXUY3KVsPlRIeq"/>
+<img class="w-10 h-10 rounded-full border-2 border-white object-cover" data-alt="User profile avatar 2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOIYRs7IPaIm1tJ8Kw1P4H_xDUgSzWHHJ3upJoLcqiNe40cbtn4Zdbrhed3jyQz1PyyWfQ6XgBUzyeddGwwyu7IN41c1w14nB5Nfg_Hg4risWiPb8oM3bksFh0jCOwQsxI6I6lk0GxA3CJZ5AKwrsd05ksuTMHjh3gCVbHj1gX-SCDMgJNHzijUJb1y22PAQG-SAiRR73Fw6zln5uT6mHn97XMhn6ZdXA_cAKHfZB6fqyQShilLsUS3qi6BUoqzm4veTqiz-lmLbiB"/>
+<img class="w-10 h-10 rounded-full border-2 border-white object-cover" data-alt="User profile avatar 3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFebGQLALQuYqzG7UxJsDcj_JA3UiWXf8cduDMJUkgS5_4iT1g_4ZDTKJkHPsIxod3Rz2E4ThCYxuQHU8rkkBwCPoA_FrEA1OZUx1ltRGxvoSfzGwmFSBGOBdSE0Elr_DR-paV2H1jRkE3JUUx22YVR_83St9GHzI6rbN-EU1zYVCStcd9XeAxoPZdWBhNRBhWI8olOk7kpZQkk7m1jJb-7FRTIthRyfEdIIsQ3q67LQwigNWsRAThwmPdq61s2wdRo0o6Liq_DZYp"/>
+</div>
+<p class="text-sm font-medium text-on-surface-variant">
+                        Join <span class="text-primary font-bold">12,000+</span> active citizens
+                    </p>
+</div>
+</div>
+<!-- Login / Sign-up Card -->
+<div class="w-full max-w-md mx-auto lg:mx-0">
+<div class="bg-surface-container-lowest p-8 md:p-10 rounded-xl shadow-[0_24px_48px_rgba(0,83,18,0.06)] border border-outline-variant/10">
+<div class="lg:hidden mb-8 text-center">
+<h2 class="text-3xl font-bold text-primary tracking-tight mb-2">Welcome</h2>
+<p class="text-on-surface-variant text-sm">Sign in to start your civic journey</p>
+</div>
+<div class="space-y-8">
+<div>
+<h3 class="text-xl font-bold text-on-surface mb-2">Get Started</h3>
+<p class="text-on-surface-variant text-sm mb-6">Enter your mobile number to receive a verification code.</p>
+<!-- Mobile Input -->
+<div class="space-y-4">
+<label class="block">
+<span class="text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2 block">Mobile Number</span>
+<div class="flex items-center bg-surface-container-highest rounded-lg px-4 h-14 focus-within:bg-surface-container-lowest focus-within:ring-2 focus-within:ring-secondary/20 transition-all">
+<span class="text-on-surface-variant font-medium mr-3 border-r border-outline-variant/30 pr-3">+91</span>
+<input class="bg-transparent border-none focus:ring-0 w-full text-lg tracking-widest font-semibold placeholder:text-zinc-400 placeholder:font-normal" placeholder="00000 00000" type="tel"/>
+</div>
+</label>
+<button class="w-full h-14 bg-gradient-to-tr from-primary to-primary-container text-on-primary font-bold rounded-xl shadow-lg shadow-primary/20 flex items-center justify-center space-x-2 active:scale-[0.98] transition-all">
+<span>Request OTP</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute inset-0 flex items-center">
+<span class="w-full border-t border-surface-container-high"></span>
+</div>
+<div class="relative flex justify-center text-xs uppercase">
+<span class="bg-surface-container-lowest px-2 text-on-surface-variant tracking-widest">Other Options</span>
+</div>
+</div>
+<!-- Secondary Actions -->
+<div class="grid grid-cols-2 gap-4">
+<button class="flex items-center justify-center h-12 rounded-lg border border-outline-variant/30 hover:bg-surface-container-low transition-colors">
+<img class="w-5 h-5" data-alt="Google logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBooXYIqPiFt7OuS9WSPc21YEDfpbi5w27x2CUmU3tBytZpHm8x-sk6WixZXKC2IKVjyIw38MVYAD4r9hjVfZZsnV5lS2Fw2XtU0sruf_dx3Iy-rWNhOSLd0W5CetufpidlTEhU2jbxrW4I9xp5PsDDeBRQuCCTVRl3cV8muzEZbuLvWPliwfigvdq6enkcG9IZjfTVB3mlQ6ecfh_OruGv5_K3ntrNEcO7oP-EG42bncND7_mZ0_tKfN8vN-zbH9oQer2kYj1cvhOD"/>
+</button>
+<button class="flex items-center justify-center h-12 rounded-lg border border-outline-variant/30 hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-on-surface-variant">mail</span>
+</button>
+</div>
+<!-- Language Toggle for Mobile (Fallback) -->
+<div class="lg:hidden pt-4 flex flex-col items-center space-y-3">
+<p class="text-xs text-on-surface-variant font-medium">Choose language / ಭಾಷೆಯನ್ನು ಆರಿಸಿ</p>
+<div class="flex items-center space-x-8">
+<button class="text-primary font-bold text-sm">English</button>
+<span class="w-px h-3 bg-zinc-300"></span>
+<button class="text-on-surface-variant font-medium text-sm">ಕನ್ನಡ</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Terms & Privacy -->
+<div class="mt-8 px-4 text-center">
+<p class="text-[12px] text-on-surface-variant leading-relaxed">
+                        By continuing, you agree to Civic Clarity's 
+                        <a class="text-primary font-bold hover:underline" href="#">Terms of Service</a> 
+                        and 
+                        <a class="text-primary font-bold hover:underline" href="#">Privacy Policy</a>.
+                    </p>
+</div>
+</div>
+</div>
+</main>
+<!-- Contextual FAB Suppression: Hiding FAB for Onboarding -->
+<footer class="mt-auto py-8 border-t border-surface-container-high bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+<div class="flex items-center space-x-2 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">eco</span>
+<span class="font-headline font-bold text-sm">A Digital Caretaker Initiative</span>
+</div>
+<div class="flex space-x-6 text-xs text-on-surface-variant font-medium">
+<a class="hover:text-primary transition-colors" href="#">Support</a>
+<a class="hover:text-primary transition-colors" href="#">Waste Guide</a>
+<a class="hover:text-primary transition-colors" href="#">About</a>
+</div>
+</div>
+</footer>
+<!-- Bottom Nav Suppression: Hiding Shell for Onboarding -->
+</body></html>
